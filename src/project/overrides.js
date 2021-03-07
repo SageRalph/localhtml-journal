@@ -16,7 +16,9 @@ import "./scripts.js";
 export function customSheetName(data) {
   // Put your custom file naming logic here.
   // If the return value is falsy, config.DEFAULT_SHEET_NAME is used instead.
-  return data["fileNameField"];
+  return [data["coverLine1"], data["coverLine2"], data["coverLine3"]]
+    .filter(Boolean)
+    .join(" - ");
 }
 
 /**

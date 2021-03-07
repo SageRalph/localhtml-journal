@@ -4,46 +4,37 @@ You can add more CSS files by importing them in overrides.js
 */
 
 /* Local image URLs specified in CSS are automatically inlined */
-.placeholder-background-image {
-  background: url("../img/placeholder.svg") no-repeat, white;
-  background-size: cover;
+.cover-background-image {
+  background: white url("../img/cover.svg") no-repeat center;
+  background-size: 100%;
 }
 
-#myMenuButton{
-  background: url("../img/icons/trash.svg") no-repeat;
+.page input {
+  padding: 16px;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin-left: 20%;
+  width: 65%;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  color: brown;
+  position: absolute;
+}
+
+.page input[name="coverLine1"] {
+  top: 256px;
+}
+.page input[name="coverLine2"] {
+  top: 334px;
+}
+.page input[name="coverLine3"] {
+  top: 412px;
 }
 
 #infoPanel {
   right: 0;
   width: 25rem;
   position: fixed;
-}
-
-.page {
-  padding: 3rem;
-}
-
-form .quill_field {
-  border: 1px solid gray;
-  min-width: 80%;
-  padding: 1rem;
-}
-
-form p {
-  text-align: justify;
-}
-
-form button,
-form label {
-  display: block;
-  padding: 1rem;
-  margin: 0.5rem 0;
-}
-
-form label {
-  padding-left: 0;
-}
-
-form label input {
-  margin: 0 1rem;
 }
