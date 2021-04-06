@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlInlineScriptPlugin = require("html-inline-script-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const { version } = require("./package.json");
 
 module.exports = {
   entry: "./src/index.js",
@@ -10,6 +11,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
       inject: "body",
+      templateParameters: { version },
     }),
     new HtmlInlineScriptPlugin(),
   ],
