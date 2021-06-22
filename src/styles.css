@@ -26,9 +26,3 @@
 .lh-page input[name="coverLine3"] {
   top: 412px;
 }
-
-#infoContainer {
-  right: 0;
-  width: 25rem;
-  position: fixed;
-}
