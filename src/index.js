@@ -33,7 +33,7 @@ new localhtml({
   defaultSheetName: "Journal",
   customSheetName: customSheetName,
   infoURL: "https://en.m.wikipedia.org/wiki/?mobileaction=toggle_view_mobile",
-  latestVersionURL: "https://davidralph.github.io/localhtml-journal/",
+  latestVersionURL: "https://SageRalph.github.io/localhtml-journal/",
   hotkeysEnabled: true,
   log: console.log,
 });

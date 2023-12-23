@@ -3,7 +3,7 @@
 The content of this repo is for building a single page static site with persistent form data and rich text editor fields. The page can be saved locally as a single HTML file and works offline. The local copy holds all data needed to repopulate the sheet, and newer versions of the page can import data from older versions.
 
 A pre-built copy of the example page is provided as `docs/index.html`.  
-This is hosted using GitHub pages at https://davidralph.github.io/localhtml/
+This is hosted using GitHub pages at https://SageRalph.github.io/localhtml/
 
 ## How To use
 
